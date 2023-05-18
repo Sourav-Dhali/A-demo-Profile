@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    box-sizing: border-box;
+    height: 65px;
+    width: 100vw;
+    padding: 0 30px;
+    
+    position: fixed;
+    z-index: 2;
+    opacity: 0.9;
+    background: rgba(85, 84, 84, 0.2);
+    backdrop-filter: blur(30px) saturate(1000%) contrast(200%);
+}
+.contents{
+    padding-top: 65px;
+}
+.mylogo{
+    display: inline-block;
+    font-size: 35px;
+    
+    margin: 12px;
+    font-weight: bold;
+    text-shadow: 0px 0 1px #f40707, 0 0 7px #e8070785;
+    border: 2px solid transparent;
+    background-image: linear-gradient(white,white),
+    linear-gradient(90deg, rgb(12, 0, 0), blue, green,yellow,violet,pink);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    border-radius: 20%;
+    letter-spacing: -10px;
+    padding-right: 10px;
+
+}
+@media (max-width:700px){
+    .options{
+        display: none;
+    } 
+}
+.options{
+    float: right;
+}
+.options ul{
+    display: flex;   
+}
+.options ul li{
+    list-style: none;
+    margin:22px 30px;
+    font-size: 20px;
+}
+.options a{
+    text-decoration: none;
+    color: rgb(41, 40, 40);
+    background-image: linear-gradient(90deg , red,blue,green);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    transition: background-size 300ms ease;
+}
+.options a:hover,:active {
+    background-size: 100% 2px;
+}

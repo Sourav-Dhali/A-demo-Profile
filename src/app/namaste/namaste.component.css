@@ -1,0 +1,81 @@
+.namastecomponents{
+    padding: 0;
+    margin: 0;
+    height: 600px;
+    width: 100vw;
+    box-sizing: border-box;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.Namaste {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 160px;
+    /* border: 2px solid salmon; */
+}
+.allabout {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 3px 10px white;
+}
+.allabout span::before{
+    content: 'Sourav';
+    animation: animate infinite 8s;
+}
+@keyframes animate{
+    0%{
+        content: 'I am Sourav.';
+        color: red;
+    }
+    14%{
+        content: 'I am a web developer.';
+        /* color: orange; */
+    }
+    24%{
+        content: 'I work on HTML.';
+        color: yellow;
+    }
+    36%{
+        content: 'I work on CSS.';
+        /* color: green; */
+    }
+    48%{
+        content: 'I work on Javascript.';
+        color: blue;
+    }
+    60%{
+        content: 'I am a trainee.';
+        /* color: indigo;  */
+    }
+    72%{
+        content: 'I would love to connect.';
+        color: violet;
+    }
+    100%{
+        content: 'I am Sourav.';
+        color: red;
+    }
+}
+
+.sayhi {
+    font-size: 40px;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    margin: 40px auto;
+    padding-top: 8px;
+    border: 2px solid rgb(233, 52, 143);
+    border-radius: 35px;
+    
+}
+.sayhi a{
+    text-decoration: none;
+    color: #3e3e3f;
+}
+.sayhi :hover,:active{
+    background-image: linear-gradient(90deg, red,yellow,green,pink,blue);
+    background-clip: text;
+    color:transparent;
+}

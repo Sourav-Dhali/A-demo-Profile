@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.allabout {
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    /* border: 1px solid darkcyan; */
+    padding: auto 30px;
+}
+
+.content {
+    width: 40%;
+    margin: 0px 60px;
+    padding: 15px 40px;
+}
+
+.aboutme {
+    font-size: 50px;
+    background-image: linear-gradient(90deg, red, yellow, pink);
+    background-clip: text;
+    color: transparent;
+}
+
+.myname {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.aboutdiv {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #2d2d2e;
+}
+
+.aboutdiv a {
+    text-decoration: none;
+    color: #2d2d2e;
+    background-image: linear-gradient(90deg, red, blue, green);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 300ms ease;
+}
+
+.aboutdiv a:hover,:active {
+    background-size: 70% 2px;
+}
+
+.myimage img {
+    width: 100%;
+    height: 25em;
+    margin: 22px 30px;
+    /* margin-left: 100px; */
+    border: 2px solid rgb(218, 197, 81);
+    border-radius: 5px;
+}

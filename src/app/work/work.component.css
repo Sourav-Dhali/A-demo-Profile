@@ -1,0 +1,76 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.totalwork {
+    height: 500px;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 67px 360px;
+    box-sizing: border-box;
+}
+
+.experience {
+    text-align: center;
+    font-size: 40px;
+    background-image: linear-gradient(90deg,red,rgb(68, 167, 68),rgb(143, 143, 15),rgb(58, 58, 182),pink);
+    background-clip: text;
+    color: transparent;
+}
+
+.frontendegineer {
+    font-size: 22px;
+    margin-top: 40px;
+    color: black;
+    opacity: 0.6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+.place {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.job {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.theline {
+    width: 80px;
+    border: 1px solid black;
+    margin: 0px 20px;
+    opacity: 0.6;
+}
+
+.job1role {
+    font-size: 20px;
+}
+
+.job3role {
+    font-size: 19px;
+}
+
+.job1time {
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.works p {
+    display: inline;
+    opacity: 0.6;
+    line-height: 15px;
+
+}
+
+.works span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.works ul {
+    line-height: 30px;
+}
